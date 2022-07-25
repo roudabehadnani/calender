@@ -30,7 +30,6 @@ public class Main {
         if (monthNum == 1) {
             for (int i = 0; i < Months.JANUARY.getDay(); i++) {
                 LocalDate day = date.plusDays(i);
-//                LocalDate a = inputYear.plus(Period.ofDays(i));
                 System.out.println(day + "    "  + day.getDayOfWeek());
             }
         }
@@ -118,6 +117,6 @@ public class Main {
                 System.out.println(day + "    " + day.getDayOfWeek());
             }
         }
-        
+
     }
 }
